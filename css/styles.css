@@ -1,0 +1,142 @@
+.headder{
+    border:1px solid black;
+    background-color: #3caea3;
+}
+.sat{
+    justify-content:space-between;
+}
+.img1{
+  float:right
+}
+.bar{
+    text-align: right;
+    text-decoration:#F5FFFA ;
+  
+}
+li{
+    display:inline;
+    margin:7px;
+}
+.temp{
+    border:1px solid black;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    background-color: #3caea3;
+    color:#F5FFFA;
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 10px 10px 5px grey;
+}
+.Humidity{
+    border:1px solid black;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    background-color: #3caea3;
+    color:#F5FFFA;
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 10px 10px 5px grey;
+}
+.rainfall{
+    border:1px solid black;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    background-color: #3caea3;
+    color:#F5FFFA;
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 10px 10px 5px grey;
+}
+.current_weather{
+    border:1px solid black;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    background-color: #3caea3;
+    color:#F5FFFA;
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 10px 10px 5px grey;
+}
+.leaf{
+    display:flex;
+    gap:50px;
+    
+    margin-top: 20px;
+}
+/* ========== MOBILE RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+
+    /* Header text */
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Navigation bar */
+    .bar {
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Image responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Weather cards on home page */
+    .leaf {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .temp,
+    .Humidity,
+    .rainfall,
+    .current_weather {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    /* Center form properly */
+    .center-container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .center-container form {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
