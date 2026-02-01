@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+ <body style="background-color:blanchedalmond;">
+    <div class="headder">
+    <h1 style="color:#F5FFFA;text-align:center"><b>Welcome!Plan your day with weather</b></h1>
+    <div class="bar">
+    <ul class="l">
+    <li> <a href="index.html">Home</a></li>
+    <li> <a href="about.html">about</a></li>
+    <li><a href="day'sforecast.html">Day'sforecast</a></li>
+    <li><a href="hourlyforecast.html">Hourlyforecast</a></li>
+    </div>
+    </ul>
+    </div>
+    <hr>
+    <hr>
+    <h2 style="color:blueviolet"><i>A fresh start begins with knowing what the skies have planned today<i></h2>
+      <img src="images/hourly.jpeg" width="300">
+        <form onsubmit="return false;">
+    <div>
+        <label>City</label>
+        <input type="text" id="cityInput" placeholder="Enter city">
+    </div>
+    <br>
+    <div>
+        <button type="button" onclick="getDailyForecast()">Get Forecast</button>
+    </div>
+</form>
+
+<div id="dailyResult"></div>
+
+<script src="weather.js"></script>
+
+</body>
+</html>
